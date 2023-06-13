@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: Black;
+  background-color: #edf1f8;
+}
+.container {
+  max-width: 90rem;
+  margin: 2rem auto;
+  padding: 0px 2rem;
+}
+.header {
+  padding: 2rem;
+  margin: 1rem 0px;
+  text-align: center;
+}
+.header > .title {
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 2px red;
+  font-size: 3rem;
+}
+.tribute {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 78rem;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  background: #fff;
+  color: black;
+  align-items: center;
+  padding: 5px 0px 0px 1rem;
+  border-radius: 10px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.tribute:hover {
+  background-color: #f6f8fb;
+}
+.tribute blockquote {
+  text-align: center;
+  font-size: 2rem;
+  font-family: cursive;
+  font-weight: bold;
+}
+.tribute h4 {
+  font-size: 1.2rem;
+  text-align: right;
+  margin-top: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.tribute img {
+  max-width: 100%;
+}
+.bio-1 {
+  margin: 5rem auto 2rem 15rem;
+  padding: 0px 0.5rem;
+  max-width: 50rem;
+  padding: 10px;
+}
+.bio-1:hover {
+  border-top: 2px solid #e2992b;
+  transition: linear 200;
+}
+.bio-1 > h2 {
+  text-shadow: 2px 2px #e2992b;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.bio-1 > p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.bio-1 > hr {
+  margin-top: 2rem;
+}
+
+.bio-2 {
+  margin: 2rem 15rem 2rem auto;
+  padding: 0px 0.5rem;
+  max-width: 50rem;
+}
+
+.bio-2:hover {
+  border-top: 2px solid #e2992b;
+  transition: linear 200;
+}
+.bio-2 > h2 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  line-height: 1.2;
+  text-shadow: 2px 2px #e2992b;
+}
+
+.bio-2 > p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.bio-2 > hr {
+  margin-top: 2rem;
+}
+.bio-3 {
+  margin: 2rem auto 2rem 15rem;
+  padding: 0px 0.5rem;
+  max-width: 50rem;
+}
+
+.bio-3:hover {
+  border-top: 2px solid #e2992b;
+  transition: linear 200;
+}
+
+.bio-3 > h2 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  line-height: 1.2;
+  text-shadow: 2px 2px #e2992b;
+}
+
+.bio-3 > p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.bio-3 > hr {
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: rgb(31, 31, 31);
+  text-align: center;
+  color: #edf1f8;
+  bottom: 0;
+  height: 6vh;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
